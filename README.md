@@ -1,8 +1,11 @@
 
 # mechanical linkage and FEM Softbody simulation in MATLAB
+* fem2d.m   - softbody simulation using finite element method 
+* linkages.m  - solving mechanical linkages differential equation
+
+Open these files in MATLAB folder and type the following command on the command window 
 
 ## FEM 
-On command window
 
 * Neohookean
 ```
@@ -17,42 +20,50 @@ On command window
 
 
 ## Linkage ()
-On command window
-![nvk](/images/0.gif)
+
+
+* Intro
+  
+![0](/images/0.gif)
 
 ```
 >linkages(0)
 ```
 
 * drag-link
-![nvk](/images/1.gif)
+  
+![1](/images/1.gif)
 ```
 >linkages(1)
 ```
 
 * double-rocker
-![nvk](/images/2.gif)
+  
+![2](/images/2.gif)
 
 ```
 >linkages(2)
 ```
 
 * Hoekens
-![nvk](/images/3.gif)
+  
+![3](/images/3.gif)
 
 ```
 >linkages(3)
 ```
 
 * Peaucellier-Lipkin
-![nvk](/images/4.gif)
+  
+![4](/images/4.gif)
 
 ```
 >linkages(4)
 ```
 
 * Klann
-![nvk](/images/5.gif)
+  
+![5](/images/5.gif)
 
 ```
 >linkages(5)
