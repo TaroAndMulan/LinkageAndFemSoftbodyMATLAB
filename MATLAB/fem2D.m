@@ -190,7 +190,7 @@ function [tri, v] = createCircleMesh()
 
 M = 4 ;
 N = 10 ;
-R = 1
+R = 1 ;
 nR = linspace(0,R,M) ;
 nT = linspace(0,2*pi,N) ;
 %nT = pi/180*(0:NT:theta) ;
